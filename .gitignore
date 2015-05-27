@@ -1,0 +1,12 @@
+*.DS_Store
+*.log
+*.swp
+*.swo
+node_modules
+dump.rdb
+test/client/public
+app/public
+issue-dump
+tmp
+components
+bower_components

@@ -1,0 +1,1 @@
+nodemon -w config/gulp.coffee -w domain/gulp/client/ -e coffee,jade,html node_modules/.bin/axiom client build

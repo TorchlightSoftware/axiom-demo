@@ -1,0 +1,1 @@
+define({"url":"http://localhost:4040"});

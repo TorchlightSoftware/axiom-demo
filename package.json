@@ -1,0 +1,37 @@
+{
+  "name": "axiom-demo",
+  "description": "App to demonstrate Axiom workflows.",
+  "version": "0.0.1",
+  "author": "Torchlight Software <info@torchlightsoftware.com>",
+  "repository": "",
+  "main": "app.js",
+  "dependencies": {
+    "async": "*",
+    "axiom": "*",
+    "axiom-connect": "*",
+    "axiom-gulp": "*",
+    "axiom-mocha": "*",
+    "axiom-mongoose": "*",
+    "axiom-protocol": "*",
+    "coffee-script": "*",
+    "connect": "*",
+    "law": "*",
+    "lodash": "*",
+    "stackvis": "^0.2.0",
+    "torch": "*"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "traffic": "~0.0.4",
+    "nodemon": "^1.2.1",
+    "request": "*"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "axiom server run",
+    "test": "axiom server test"
+  }
+}

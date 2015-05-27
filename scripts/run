@@ -1,0 +1,3 @@
+#!/bin/bash
+#nodemon -w domain -w config -w extensions -e coffee ./node_modules/.bin/axiom server run
+nodemon --perf-basic-prof -w domain -w config -w extensions -e coffee ./node_modules/.bin/axiom server run

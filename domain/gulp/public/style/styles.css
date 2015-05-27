@@ -1,0 +1,47 @@
+/* ---- GLOBAL ---- */
+
+a {
+  cursor: pointer;
+}
+
+.safari img {
+  vertical-align: baseline !important;
+}
+
+/* ---- NAVBAR ---- */
+
+.navbar-logo {
+  padding: 2px;
+}
+
+.navbar-icon {
+  font-size: 36px;
+  color: gray;
+  margin-top: 4px;
+  margin-right: 15px;
+  float: right;
+}
+
+.navbar-icon:hover {
+  color: white;
+}
+
+.navbar-toggle {
+  float: none;
+  margin-left: 15px;
+}
+
+.container>.navbar-header {
+  float: left;
+  margin-right: 4px;
+}
+
+/* ---- CONTENT ---- */
+
+#content {
+  padding: 15px 10px;
+}
+
+.shade {
+  background-color: gray;
+}

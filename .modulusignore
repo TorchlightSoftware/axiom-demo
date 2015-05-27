@@ -1,0 +1,11 @@
+*.DS_Store
+*.log
+*.swp
+*.swo
+node_modules
+bower_components
+tmp
+build
+test
+karma.conf.js
+data
